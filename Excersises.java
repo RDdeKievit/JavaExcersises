@@ -4,14 +4,18 @@ class Excersises {
 
     public static void main (String args[]){
 
-        Scanner input = new Scanner(System.in);
+        int a, b, temp;
 
-        System.out.println("Input first number: ");
-        int num1 = input.nextInt();
+        a = 3;
+        b = 14;
 
-        for(int i=0;i<10;i++){
-            System.out.println(num1 + " x " + (i+1) + " = " + num1*(i+1));
+        System.out.println("Before swap: a, b = "+ a +","+ b);
 
-        }
+        temp = a;
+        a = b;
+        b = temp;
+
+        System.out.println("After swap: a, b = "+ a +","+ b);
+
     }
 }
