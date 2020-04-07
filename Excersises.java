@@ -9,14 +9,9 @@ class Excersises {
         System.out.println("Input first number: ");
         int num1 = input.nextInt();
 
-        System.out.println("Input second number: ");
-        int num2 = input.nextInt();
+        for(int i=0;i<10;i++){
+            System.out.println(num1 + " x " + (i+1) + " = " + num1*(i+1));
 
-        System.out.println(num1 + " + " + num2 + " = " + (num1+num2));
-        System.out.println(num1 + " - " + num2 + " = " + (num1-num2));
-        System.out.println(num1 + " x " + num2 + " = " + num1*num2);
-        System.out.println(num1 + " / " + num2 + " = " + num1/num2);
-        System.out.println(num1 + " mod " + num2 + " = " + num1%num2);
-        
+        }
     }
 }
